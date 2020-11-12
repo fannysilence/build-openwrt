@@ -9,6 +9,7 @@ git clone -b master https://github.com/vernesong/OpenClash.git package/diy/luci-
 git clone https://github.com/tty228/luci-app-serverchan.git package/diy/luci-app-serverchan  #微信推送
 git clone https://github.com/jerrykuku/node-request.git package/diy/node-request  #京东签到依赖
 git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/diy/luci-app-jd-dailybonus  #京东签到
+git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/diy/luci-app-adguardhome  #adguardhome
 
 #增加LEDE的ShadowSocksR Plus+出国软件 (源码自带passwall出国软件)
 sed -i '$a src-git helloworld https://github.com/fw876/helloworld' feeds.conf.default
